@@ -1,3 +1,5 @@
+
+//Задание 8
 let map = new Map();
 map.set("Yolo", "string");
 map.set(2, "number");

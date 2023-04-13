@@ -1,0 +1,30 @@
+<!--Задание 1-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let result = prompt('Введите значение','');
+  result = +result
+  console.log(typeof result);
+  if (typeof result == "number") {
+    if (result % 2 == 0) {
+      console.log("Введено четное число");
+    }
+    else if ((result % 2 == 1)){
+      console.log('Введено нечетное число');
+    }
+    else if (result == NaN) {
+      console.log('Что-то не так');
+    }
+    else {
+      console.log('Упс, что-то не то ввели');
+    }
+            }
+
+</script>
+</body>
+</html>
